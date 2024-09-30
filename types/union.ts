@@ -8,5 +8,6 @@ const People1 : People = {
 }
 //akan error: Type '"Cerai"' is not assignable to type '"sudah nikah" | "belum nikah
 const People2 : People = {
+    //@ts-ignore
     status : 'Cerai'
 }

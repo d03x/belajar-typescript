@@ -20,6 +20,7 @@ describe("keyoftest", function () {
         expect(user).toBe("name");
     });
     test("Not Key OF", function () {
+        //@ts-ignore
         const user: D = "abri";
         expect(user != "name").toBeTrue()
     });
